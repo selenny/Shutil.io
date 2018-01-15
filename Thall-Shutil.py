@@ -22,7 +22,7 @@ print file_Names
 
 for file in file_Names:
     if file.endswith(".txt"):
-        shutl.move(src+'\'+file, dest)
+        shutil.move(src + '/'+ file, dest)
     else:
         print("Files cannot be moved at this time")
                   
